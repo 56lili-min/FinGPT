@@ -1,0 +1,15 @@
+{
+    "python.defaultInterpreterPath": "D:\\anaconda\\envs\\ml\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "& D:\\anaconda\\Scripts\\activate.bat ml"
+            ]
+        }
+    }
+}
